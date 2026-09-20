@@ -1,0 +1,17 @@
+# Folders and files Git should ignore — they don't belong on GitHub.
+
+# Installed packages. These get re-downloaded from package.json, so there's no
+# reason to store thousands of files in your repo.
+node_modules/
+
+# Secrets: API keys, passwords. NEVER commit these.
+.env
+.env.local
+
+# Operating system clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor settings
+.vscode/
